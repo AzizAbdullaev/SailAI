@@ -1,4 +1,3 @@
-import { CIRCUMFERENCE, DURATION, PROGRESSBAR_COLORS, RADIUS } from "app/utils/constants";
 import { useEffect } from "react";
 import { TextInput, StyleSheet, View } from "react-native";
 import Animated, {
@@ -9,6 +8,7 @@ import Animated, {
 	withTiming,
 } from "react-native-reanimated";
 import { Circle, Svg } from "react-native-svg";
+import { CIRCUMFERENCE, DURATION, PROGRESSBAR_COLORS, RADIUS } from "app/utils/constants";
 
 const AnimatedCircle = Animated.createAnimatedComponent(Circle);
 const AnimatedText = Animated.createAnimatedComponent(TextInput);

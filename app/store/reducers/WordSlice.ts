@@ -1,3 +1,4 @@
+import { createSlice } from "@reduxjs/toolkit";
 import {
 	TEXT_PLACEHOLDER,
 	TRUE_SENTENCE,
@@ -7,9 +8,8 @@ import {
 	GREEN_COLOR,
 	RED_COLOR,
 } from "app/utils/constants";
-import { createSlice } from "@reduxjs/toolkit";
 
-interface UserState {
+interface WordState {
 	words: string[];
 	isValid: boolean;
 	showWarning: boolean;
@@ -18,7 +18,7 @@ interface UserState {
 	buttonBGColor: string;
 }
 
-const initialState: UserState = {
+const initialState: WordState = {
 	words: TEXT_PLACEHOLDER,
 	isValid: false,
 	showWarning: false,

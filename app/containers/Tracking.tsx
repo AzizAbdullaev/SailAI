@@ -1,5 +1,5 @@
-import { TASKS_PLACEHOLDER } from "app/utils/constants";
 import { SafeAreaView, ScrollView, StyleSheet, View, Text } from "react-native";
+import { TASKS_PLACEHOLDER } from "app/utils/constants";
 
 const Tracking = () => {
 	return (
